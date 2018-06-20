@@ -16,6 +16,8 @@ import entities.UserRepository;
 public class MainController {
 
 	private static final Logger log = LoggerFactory.getLogger(MainController.class);
+
+	/*My controller class*/
 	
 	@Autowired
 	private UserRepository userRepository;
