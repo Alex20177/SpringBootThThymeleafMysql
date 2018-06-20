@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: Test1JavaSpring
+  buildpack: java_buildpack
+  path: ./target/Test1JavaSpring-1.0-SNAPSHOT.jar
+  memory: 512MB
+  domain: mybluemix.net
+  host: create-project-bcset
